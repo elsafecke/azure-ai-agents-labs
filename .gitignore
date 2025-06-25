@@ -22,7 +22,6 @@ ENV/
 # Environment variables
 .env
 .env.*
-sample.env
 
 # OS files
 .DS_Store
@@ -39,5 +38,5 @@ Thumbs.db
 *.swp
 *.tmp
 
-# Ignore data outputs
-data/*.pdf
+# Word Doc
+*.docx

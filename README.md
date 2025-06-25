@@ -5,10 +5,30 @@ This repository provides a series of hands-on labs for building and orchestratin
 ## Prerequisites
 - Azure subscription
 - Azure AI Foundry resource with an AI Project (set up in Lab 1)
-- Visual Studio Code (or Github Codespaces environment)
-- Python 3.10 or higher
-- Azure CLI
-- Azure CLI Azure ML extension
+- For Labs 1, and 3-5:
+-   Option #1: to run the labs locally, you will need:
+      1. Visual Studio Code (or your preferred IDE) installed
+      2. Python 3.10 or higher installed
+      3. Azure CLI
+-   Option #2: to run the labs in a cloud environment, you can use Github Codespaces. This only requires a Github account. Note: your organization may have certain security policies in place that prevent running Labs in the cloud. In that case, please proceed with option #1
+
+## How to Get Started
+
+If you are running the labs locally...
+
+1. Clone the repo by copying the URL 
+
+   ![Clone Repo](images/clone-repo.jpg)
+
+2. Open VS Code. On the main page, select 'Clone git repository' and paste the URL you just copied into the top window. It will ask you where you want to save the folder, that is up to you.
+
+   ![Clone Repo](images/vs-code-clone.jpg)
+
+If you are running the labs in Github Codespaces...
+
+1. Select Codespaces and create a new workspace. That's it!
+
+   ![Clone Repo](images/codespaces.jpg)
 
 ## Labs Overview
 
