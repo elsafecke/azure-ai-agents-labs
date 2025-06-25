@@ -1,4 +1,4 @@
-# Hands-On Labs for AI Agents Using Azure AI Agent Service SDK
+# Hands-On Labs for AI Agents Using Azure AI Agent Service UI and SDK
 
 This repository provides a series of hands-on labs for building and orchestrating AI Agents using the Azure AI Agent Service SDK. You will learn to set up your Azure environment, deploy models, create and connect agents, and build advanced multi-agent systems.
 
