@@ -3,14 +3,32 @@
 This repository provides a series of hands-on labs for building and orchestrating AI Agents using the Azure AI Agent Service SDK. You will learn to set up your Azure environment, deploy models, create and connect agents, and build advanced multi-agent systems.
 
 ## Prerequisites
-- Azure subscription
-- Azure AI Foundry resource with an AI Project (set up in Lab 1)
-- For Labs 1, and 3-5:
--   Option #1: to run the labs locally, you will need:
-      1. Visual Studio Code (or your preferred IDE) installed
-      2. Python 3.10 or higher installed
-      3. Azure CLI
--   Option #2: to run the labs in a cloud environment, you can use Github Codespaces. This only requires a Github account. Note: your organization may have certain security policies in place that prevent running Labs in the cloud. In that case, please proceed with option #1
+
+### 1. Azure subscription
+- You must have an active Azure subscription and be able to log into the Azure Portal to use Azure services in these labs.
+
+### 2. Install Visual Studio Code
+- Download and install VS Code from: https://code.visualstudio.com/
+
+### 3. Install Python
+- Download and install Python (version 3.10 or higher) from: https://www.python.org/downloads/
+- During installation, check the box to "Add Python to PATH".
+
+### 4. Install the Azure CLI
+- Download and install the Azure CLI from: https://learn.microsoft.com/cli/azure/install-azure-cli
+- After installation, open a new terminal and run `az --version` to verify installation.
+
+### 5. Install the Azure CLI Tools Extension in VS Code
+- In VS Code, go to Extensions (Ctrl+Shift+X).
+- Search for and install: **Azure CLI Tools** (`ms-vscode.azurecli`).
+
+### 6. (Recommended) Install the Azure Resource Extension in VS Code
+- In VS Code, go to Extensions.
+- Search for and install: **Azure Account** (`ms-vscode.azure-account`).
+
+### 7. (Optional) Create a Github account
+- This is only required if you wish to run the labs in Github Codespaces.
+- Note: your organization may have certain security policies in place that prevent running Labs in the cloud. In that case, please proceed with option #1
 
 ## How to Get Started
 
