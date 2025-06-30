@@ -4,29 +4,36 @@ This repository provides a series of hands-on labs for building and orchestratin
 
 ## Prerequisites
 
-### 1. Azure subscription
-- You must have an active Azure subscription and be able to log into the Azure Portal to use Azure services in these labs.
+Below is a list of prequisites that are required in order to run the labs. Please read through carefully to ensure these or met to avoid errors when running the labs.
 
-### 2. Install Visual Studio Code
+### 1. Azure subscription
+- You must have an active Azure subscription and be able to log into the Azure Portal to use Azure services in these labs. Don't have a subscription? Most of the content in these labs provide thorough walkthroughs and explanations of the code and output, so whether or not you are actually able to run the labs, you can still learn a lot by reading through them!
+
+### 2. Install Visual Studio Code (required if running locally)
 - Download and install VS Code from: https://code.visualstudio.com/
 
-### 3. Install Python
+### 3. Install Python (required if running locally)
 - Download and install Python (version 3.10 or higher) from: https://www.python.org/downloads/
 - During installation, check the box to "Add Python to PATH".
 
-### 4. Install the Azure CLI
+### 4. Install the Azure CLI (required if running locally)
 - Download and install the Azure CLI from: https://learn.microsoft.com/cli/azure/install-azure-cli
 - After installation, open a new terminal and run `az --version` to verify installation.
 
-### 5. Install the Azure CLI Tools Extension in VS Code
+### 5. Install Git (required if running locally)
+- Download and install Git from: https://git-scm.com/downloads
+- Follow the installation instructions for your operating system (Windows, macOS, or Linux).
+- After installation, open a new terminal or command prompt and run `git --version` to verify Git is installed correctly.
+
+### 6. Install the Azure CLI Tools Extension in VS Code (required if running locally)
 - In VS Code, go to Extensions (Ctrl+Shift+X).
 - Search for and install: **Azure CLI Tools** (`ms-vscode.azurecli`).
 
-### 6. (Recommended) Install the Azure Resource Extension in VS Code
+### 7. Install the Azure Resource Extension in VS Code (recommended if running locally)
 - In VS Code, go to Extensions.
 - Search for and install: **Azure Account** (`ms-vscode.azure-account`).
 
-### 7. (Optional) Create a Github account
+### 8. Create a Github account (required if running in Github Codespaces)
 - This is only required if you wish to run the labs in Github Codespaces.
 - Note: your organization may have certain security policies in place that prevent running Labs in the cloud. In that case, please proceed with option #1
 

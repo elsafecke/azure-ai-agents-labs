@@ -61,19 +61,27 @@ This means that, even though Azure CLI is installed and `az login` works in the 
      ```
    - If this fails, Azure CLI is not in your PATH.
 
-2. **Restart VS Code and Jupyter kernel**
+2. **Check if you are logged in to Azure CLI**
+   - Even if Azure CLI is installed, you must be logged in for authentication to work.
+   - Run:
+     ```
+     az login
+     ```
+   - If you are not logged in, follow the prompts to sign in. This often resolves the error immediately.
+
+3. **Restart VS Code and Jupyter kernel**
    - Close all VS Code windows and terminals.
    - Reopen VS Code, open your project, and restart the Jupyter kernel.
 
-3. **Check Python environment**
+4. **Check Python environment**
    - Make sure you are using the correct Python interpreter/virtual environment in VS Code.
 
-4. **(Optional) Install Azure Developer CLI**
+5. **(Optional) Install Azure Developer CLI**
    - Some users may see errors about AzureDeveloperCliCredential. This is not required if Azure CLI works, but installing it can provide another fallback:
      - Download from: https://aka.ms/azure-dev
      - Run: `azd auth login`
 
-5. **(Optional) Set up Environment Variables**
+6. **(Optional) Set up Environment Variables**
    - You can also authenticate by setting environment variables for a service principal, but this is not required for most users.
 
 ---
@@ -81,7 +89,8 @@ This means that, even though Azure CLI is installed and `az login` works in the 
 ## Summary for Lab Users
 
 - Make sure Azure CLI is installed and in your PATH.
-- Always restart VS Code and the Jupyter kernel after installing Azure CLI.
+- You must be logged in to Azure CLI. If you see authentication errors, try running `az login`.
+- Always restart VS Code and the Jupyter kernel after installing Azure CLI or logging in.
 - Verify `az --version` works in the same terminal as your Python code.
 - If you still see the error, try installing the Azure Developer CLI and running `azd auth login`.
 
